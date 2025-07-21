@@ -1,0 +1,147 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-top: none;
+    overflow: hidden;
+    background-color:#61331e;
+    }
+  
+  .li h2{
+    margin-top: 3px;
+    float: left;
+    margin-left: 5px;
+    size: 100px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 23px;
+  }
+  
+   .li li {
+    float: right;
+  }
+  
+  .li a {
+    display: block;
+    color:#f6f6f8;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+  }
+  
+  .li a:hover {
+    background-color: #000000;
+    opacity: 0.4s;
+    border-radius: 7px;
+    color: rgb(232, 0, 0);
+    font-size: 17px;
+    padding-right: 45px;
+  }
+  .li a::after{
+    background-color: #bc0000;
+    opacity: 0.5;
+  }
+  body{
+    background-color: #cd9b7c;;
+    margin: 0;}
+    .addbtn i{
+      padding-right: 5px;
+      
+    }
+  
+.footer{
+  background-color: #24262b;
+  padding-top:10px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1px;
+  margin-top: 200px;
+}
+
+.footer p{
+  color: white;
+}
+.footer h4{
+  color: #9800a9;
+}
+.footer a{
+  color: #CCD0E0;
+}
+.footer ul{
+  background-color:#24262b ;
+  padding-left: 5px; 
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Bebas Neue', cursive; ;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #ffffff;
+  padding: 221px;
+  padding-left: 640px;
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.5em;
+  background-color: #001c2e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  border-radius: 5px;
+  background-color: #01164c;
+  color: white;
+
+}
+
+.Lists ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.Lists li {
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#4d4d4d;
+}
+.Lists li:hover{
+  background-color: #b3b3b3;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+
+.Lists li label {
+  flex-grow: 1;
+}
+
+.Lists li input[type="checkbox"] {
+  margin-right: 10px;
+}
+.todolist{
+  background: url(bucketlist.jpg);
+}
